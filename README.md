@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Temporal Staging of Epileptic Seizure Progression
 **Alpha-Band EEG Dynamics with a Transition-Aware Convolutional GRU Model (ST-ATMR-Net)**
 
@@ -141,3 +142,6 @@ Launch Jupyter Notebook / JupyterLab:
 jupyter notebook 06_Notebooks/01_dataset_analysis_and_montage_visualization.ipynb
 ```
 The notebook automatically resolves project paths to `03 Dataset` and renders all interactive 23-channel montages.
+=======
+# Transition-aware-seizure-staging
+>>>>>>> c157510a637d8440ab9a8a9cc3281f98352d6204

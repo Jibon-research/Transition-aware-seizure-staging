@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title description">
+  <title id="title">Temporal Staging of Epileptic Seizure Progression</title>
+  <desc id="description">Gradient banner for the ST-ATMR-Net EEG seizure staging research project.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10204b"/>
+      <stop offset=".52" stop-color="#174c78"/>
+      <stop offset="1" stop-color="#5a327f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55e6d1"/>
+      <stop offset=".52" stop-color="#73b9ff"/>
+      <stop offset="1" stop-color="#ff9ccc"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#70e7e0" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#70e7e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="370" rx="28" fill="url(#background)"/>
+  <circle cx="1010" cy="50" r="290" fill="url(#glow)"/>
+  <circle cx="120" cy="350" r="250" fill="url(#glow)" opacity=".55"/>
+  <path d="M0 282 C100 265 160 296 250 280 S405 266 485 282 S620 299 700 277 S850 262 930 283 S1080 300 1200 272"
+        fill="none" stroke="url(#accent)" stroke-opacity=".24" stroke-width="2"/>
+  <path d="M0 294 H175 L194 294 L211 281 L228 311 L249 264 L270 302 L289 294 H445 L463 294 L480 282 L497 308 L516 267 L536 301 L553 294 H720 L738 294 L755 279 L772 310 L792 261 L812 301 L830 294 H1000 L1018 294 L1035 282 L1052 309 L1072 268 L1091 301 L1110 294 H1200"
+        fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="64" y="82" fill="#a9f3ea" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">EEG • TEMPORAL MODELING • CLINICAL RESEARCH</text>
+  <text x="64" y="151" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700">Temporal Staging of</text>
+  <text x="64" y="207" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700">Epileptic Seizure Progression</text>
+  <text x="66" y="246" fill="#d9eaff" font-family="Segoe UI, Arial, sans-serif" font-size="20">ST-ATMR-Net · Transition-aware EEG seizure-stage modeling</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="64" y="319" width="128" height="30" rx="15" fill="#ffffff" fill-opacity=".14" stroke="#a9f3ea" stroke-opacity=".7"/>
+    <text x="128" y="339" fill="#eafffb">5 CLINICAL STAGES</text>
+    <rect x="204" y="319" width="154" height="30" rx="15" fill="#ffffff" fill-opacity=".14" stroke="#9bcfff" stroke-opacity=".7"/>
+    <text x="281" y="339" fill="#eff7ff">PATIENT-DISJOINT</text>
+    <rect x="370" y="319" width="145" height="30" rx="15" fill="#ffffff" fill-opacity=".14" stroke="#ffc1de" stroke-opacity=".7"/>
+    <text x="442" y="339" fill="#fff1f8">INTERPRETABLE AI</text>
+  </g>
+</svg>

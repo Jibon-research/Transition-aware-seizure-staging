@@ -75,19 +75,21 @@ The code is strictly structured into 6 logical scientific modules:
 │   ├── verify_all_critical_issues.py       # Paired comparison, latency, transition compliance
 │   ├── generate_audited_figures6_and_7.py  # Figures 6 & 7: Multi-Seed Boxplots & Ablation Drop
 │   ├── generate_verification_and_paired_comparison_figure.py # Figure 8: Clinical Audit & Paired Comparison
-│   ├── generate_all_6_models_comparative_diagnostic_suite.py # 2x3 Comparative diagnostic suite
 │   ├── generate_combined_12_model_confusion_matrices.py # 12-Model 2x6 Confusion Matrix master suite
 │   ├── generate_combined_12_model_roc_and_calibration_2x6.py # 12-Model 2x6 ROC & Calibration master suite
-│   ├── generate_combined_radar_comparison.py # Combined 1x2 Clinical Radar Benchmark
-│   ├── generate_publication_diagnostic_figures.py # Alpha Band diagnostic ROC, PR & Calibration
-│   └── generate_broadband_publication_diagnostic_figures.py # BroadBand diagnostic ROC, PR & Calibration
+│   └── generate_combined_radar_comparison.py # Combined 1x2 Clinical Radar Benchmark
 │
 ├── 05_XAI_Analysis/                        # Explainable AI & saliency attribution
-│   ├── generate_authentic_patient_5stage_signals_and_model_xai.py # Figure: 5-Stage Signals & XAI Saliency Topomap
-│   └── generate_all_recordings_signals_and_model_xai.py # Full-cohort recording-wise XAI detection suite
+│   └── generate_authentic_patient_5stage_signals_and_model_xai.py # Figure: 5-Stage Signals & XAI Saliency Topomap
 │
-└── 06_Notebooks/                           # Interactive visualization notebooks
-    └── 01_dataset_analysis_and_montage_visualization.ipynb # Interactive dataset analysis & montages
+├── 06_Notebooks/                           # Interactive visualization notebooks
+│   └── 01_dataset_analysis_and_montage_visualization.ipynb # Interactive dataset analysis & montages
+│
+└── archive/                                # Superseded intermediate prototypes & batch scripts
+    ├── generate_all_6_models_comparative_diagnostic_suite.py # Prototype 2x3 suite (superseded by 2x6)
+    ├── generate_publication_diagnostic_figures.py # Prototype Alpha-only diagnostic (superseded by 2x6)
+    ├── generate_broadband_publication_diagnostic_figures.py # Prototype BroadBand diagnostic (superseded by 2x6)
+    └── generate_all_recordings_signals_and_model_xai.py # 80+ file batch runner (non-manuscript)
 ```
 
 ---
@@ -126,15 +128,11 @@ python 04_Evaluations/generate_verification_and_paired_comparison_figure.py
 python 04_Evaluations/generate_combined_12_model_confusion_matrices.py
 python 04_Evaluations/generate_combined_12_model_roc_and_calibration_2x6.py
 python 04_Evaluations/generate_combined_radar_comparison.py
-python 04_Evaluations/generate_all_6_models_comparative_diagnostic_suite.py
-python 04_Evaluations/generate_publication_diagnostic_figures.py
-python 04_Evaluations/generate_broadband_publication_diagnostic_figures.py
 ```
 
 ### 5) XAI Analysis (`05_XAI_Analysis`)
 ```bash
 python 05_XAI_Analysis/generate_authentic_patient_5stage_signals_and_model_xai.py
-python 05_XAI_Analysis/generate_all_recordings_signals_and_model_xai.py
 ```
 
 ### 6) Notebooks (`06_Notebooks`)

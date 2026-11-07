@@ -1,10 +1,15 @@
-# Temporal Staging of Epileptic Seizure Progression
+<div align="center" style="padding: 24px 18px 18px 18px; margin: 0 0 18px 0; background: linear-gradient(135deg, #061b2d 0%, #0f2f4f 35%, #123d60 100%); border: 1px solid #2a5f8a; border-radius: 18px; box-shadow: 0 12px 28px rgba(0,0,0,0.18);">
+  <h1 style="margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 2.4rem; letter-spacing: 0.04em; color: #f2f8ff; text-shadow: 0 2px 10px rgba(135,206,250,0.35);">Temporal Staging of Epileptic Seizure Progression</h1>
+  <p style="margin: 14px 0 0 0; font-size: 1.25rem; font-weight: 700; letter-spacing: 0.04em; color: #bfe7ff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Alpha-Band EEG Dynamics with a Transition-Aware Convolutional GRU Model (ST-ATMR-Net)</p>
+  <p style="margin: 12px 0 0 0; font-size: 0.96rem; color: #dfeefb; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 0.03em;">Clinical seizure-stage modeling, patient-disjoint validation, temporal EEG analysis, and interpretable AI for epilepsy research</p>
+</div>
 
-## Project title
-**Alpha-Band EEG Dynamics with a Transition-Aware Convolutional GRU Model (ST-ATMR-Net)**
-
-## Overview
-This repository contains a full research workflow for EEG-based seizure-stage classification and clinical interpretation. The project is designed to model how a seizure evolves over time from scalp EEG recordings, with emphasis on temporal transition dynamics, patient-disjoint evaluation, and interpretable model behavior.
+<div style="background: linear-gradient(180deg, rgba(18,61,96,0.08), rgba(18,61,96,0.02)); border-left: 5px solid #2c7be5; border-radius: 12px; padding: 18px 20px; margin: 16px 0 20px 0; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);">
+  <h2 style="margin: 0 0 10px 0; color: #0d2d4d; font-family: Georgia, 'Times New Roman', serif; letter-spacing: 0.03em;">Overview</h2>
+  <p style="margin: 0; line-height: 1.75; font-size: 1.02rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a2f43;">
+    This repository contains a full research workflow for EEG-based seizure-stage classification and clinical interpretation. The project is designed to model how a seizure evolves over time from scalp EEG recordings, with emphasis on temporal transition dynamics, patient-disjoint evaluation, and interpretable model behavior.
+  </p>
+</div>
 
 The codebase integrates:
 - data analysis and signal preparation,
@@ -18,8 +23,12 @@ The goal is not just to build a classifier, but to study seizure progression in 
 
 ---
 
-## Why this research is important
-Seizure monitoring is one of the most clinically demanding tasks in epilepsy care. EEG recordings are long, noisy, highly variable across patients, and often reviewed by neurologists under time pressure. Manual interpretation is labor-intensive, subjective, and affected by inter-rater variability, especially when a seizure evolves through multiple transient stages rather than a single discrete event.
+<div style="background: linear-gradient(180deg, rgba(12,70,115,0.06), rgba(12,70,115,0.02)); border-left: 5px solid #4fc3f7; border-radius: 12px; padding: 18px 20px; margin: 18px 0 18px 0;">
+  <h2 style="margin: 0 0 10px 0; color: #0d2d4d; font-family: Georgia, 'Times New Roman', serif; letter-spacing: 0.03em;">Why this research is important</h2>
+  <p style="margin: 0; line-height: 1.75; font-size: 1.02rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a2f43;">
+    Seizure monitoring is one of the most clinically demanding tasks in epilepsy care. EEG recordings are long, noisy, highly variable across patients, and often reviewed by neurologists under time pressure. Manual interpretation is labor-intensive, subjective, and affected by inter-rater variability, especially when a seizure evolves through multiple transient stages rather than a single discrete event.
+  </p>
+</div>
 
 This research was motivated by the need for an objective, reproducible, and clinically interpretable way to detect and stage seizure progression from scalp EEG. In practical clinical settings, the distinction between normal brain activity, pre-ictal transition, seizure onset, inter-ictal variability, and post-ictal recovery is crucial because each state carries different diagnostic and treatment implications. A model that can recognize these transitions automatically can support faster clinical decision-making, improve monitoring workflows, reduce human burden, and enable more consistent disease tracking over time.
 
@@ -29,8 +38,12 @@ In short, this project exists to bridge the gap between raw physiological record
 
 ---
 
-## Research problem and motivation
-Epileptic seizures are dynamic events that evolve across multiple stages rather than appearing as a single homogeneous state. In clinical monitoring, clinicians often need to understand whether a recording is in a normal, pre-ictal, ictal, inter-ictal, or post-ictal regime, and how transitions between those states occur over time.
+<div style="background: rgba(30, 64, 175, 0.04); border-left: 5px solid #4F46E5; border-radius: 12px; padding: 18px 20px; margin: 18px 0 18px 0;">
+  <h2 style="margin: 0 0 10px 0; color: #0d2d4d; font-family: Georgia, 'Times New Roman', serif; letter-spacing: 0.03em;">Research problem and motivation</h2>
+  <p style="margin: 0; line-height: 1.75; font-size: 1.02rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a2f43;">
+    Epileptic seizures are dynamic events that evolve across multiple stages rather than appearing as a single homogeneous state. In clinical monitoring, clinicians often need to understand whether a recording is in a normal, pre-ictal, ictal, inter-ictal, or post-ictal regime, and how transitions between those states occur over time.
+  </p>
+</div>
 
 This project tackles that problem using multichannel EEG data and temporal deep learning. The code supports both:
 - narrow-band alpha-band analysis (8-13 Hz), and

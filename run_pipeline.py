@@ -61,6 +61,7 @@ STAGES = {
             (CODE_DIR / '04_Evaluations' / 'generate_audited_figures6_and_7.py', 'Figures 6 & 7: Multi-Seed Boxplots & Ablation Drop'),
             (CODE_DIR / '04_Evaluations' / 'generate_verification_and_paired_comparison_figure.py', 'Figure 8: Paired Comparison & Compliance'),
             (CODE_DIR / '04_Evaluations' / 'generate_combined_12_model_confusion_matrices.py', 'Combined 12-Model Confusion Matrices (2x6)'),
+            (CODE_DIR / '04_Evaluations' / 'generate_combined_12_model_roc_and_calibration_2x6.py', 'Combined 12-Model ROC & Calibration (2x6)'),
             (CODE_DIR / '04_Evaluations' / 'generate_combined_radar_comparison.py', 'Combined 1x2 Clinical Radar Benchmark'),
         ]
     },
